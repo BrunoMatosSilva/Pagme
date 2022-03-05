@@ -3,10 +3,6 @@
 
 [Figma Community Layout](https://www.figma.com/community/file/1076572969373934320)
 
-<div align="center"><img src="https://img.shields.io/github/issues/BrunoMatosSilva/Pagme" />
-<img src="https://img.shields.io/github/forks/BrunoMatosSilva/Pagme" />
-<img src="https://img.shields.io/github/stars/BrunoMatosSilva/Pagme" /></div>
-
 ## Home Page
 
 <h1 align="center">
