@@ -19,6 +19,7 @@ export const Container = styled.div`
 
     @media (max-width: 425px) {
       flex-direction: column;
+      gap: 1rem;
     }
 
     img {
