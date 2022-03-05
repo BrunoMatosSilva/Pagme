@@ -6,6 +6,7 @@ export const HomeContainer = styled.div`
   width: 100vw;
   height: 100vh;
   background-image: url('/img/sidedesign.svg');
+  background-size: cover;
   background-repeat: no-repeat;
   > main {
     display: flex;
