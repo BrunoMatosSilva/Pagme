@@ -1,6 +1,10 @@
 import styled, { css } from 'styled-components';
 
-export const Container = styled.section`
+interface ContainerProps {
+  isVisible: string;
+}
+
+export const Container = styled.section<ContainerProps>`
   position: fixed;
   backdrop-filter: blur(3px);
   width: 100%;
@@ -54,7 +58,7 @@ export const Container = styled.section`
     }
   }
 
-  ${({ isVisible }) =>
+  ${({ isVisible }: any) =>
     isVisible &&
     css`
       opacity: 1;

@@ -4,7 +4,7 @@ import { IoClose } from 'react-icons/io5';
 
 import { Container } from './styles';
 
-function MobileMenu({ menuIsVisible, setMenuIsVisible }) {
+function MobileMenu({ menuIsVisible, setMenuIsVisible }: any) {
   useEffect(() => {
     document.body.style.overflowY = menuIsVisible ? 'hidden' : 'auto';
   }, [menuIsVisible]);
