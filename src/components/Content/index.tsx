@@ -7,7 +7,7 @@ import { Container } from './styles';
 
 function Content() {
   return (
-    <Container data-aos="fade-left">
+    <Container data-aos="fade-left" data-aos-duration="2000">
       <span>
         <img src={iconmoney} alt="saco de dinheiro" className="icon" />
         <p>Comece a economizar seu dinheiro de forma inteligente</p>

@@ -11,7 +11,7 @@ import theme from 'styles/theme';
 import { GlobalStyles } from '../styles/global';
 
 function App() {
-  useEffect(() => Aos.init({ duration: 3500 }), []);
+  useEffect(() => Aos.init(), []);
   return (
     <>
       <ThemeProvider theme={theme}>

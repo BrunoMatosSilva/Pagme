@@ -9,7 +9,7 @@ function HeroBanner() {
   return (
     <Container>
       <section>
-        <div data-aos="fade-right">
+        <div data-aos="fade-right" data-aos-duration="2000">
           <img src={cards} alt="cartões" />
         </div>
         <Content />
