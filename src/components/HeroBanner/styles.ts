@@ -11,7 +11,7 @@ export const Container = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 4rem;
+    gap: 1rem;
 
     @media (max-width: 768px) {
       flex-direction: column;
@@ -19,7 +19,6 @@ export const Container = styled.div`
 
     @media (max-width: 425px) {
       flex-direction: column;
-      gap: 1rem;
     }
 
     img {
