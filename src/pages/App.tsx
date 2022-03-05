@@ -1,6 +1,9 @@
+import 'aos/dist/aos.css';
+
+import Aos from 'aos';
 import Header from 'components/Header';
 import HeroBanner from 'components/HeroBanner';
-import React from 'react';
+import React, { useEffect } from 'react';
 import { ThemeProvider } from 'styled-components';
 import { HomeContainer } from 'styles/HomeContainer';
 import theme from 'styles/theme';
@@ -8,6 +11,9 @@ import theme from 'styles/theme';
 import { GlobalStyles } from '../styles/global';
 
 function App() {
+  useEffect(() => {
+    Aos.init({ durations: 3500 });
+  }, []);
   return (
     <>
       <ThemeProvider theme={theme}>

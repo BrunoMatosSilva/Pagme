@@ -13,69 +13,36 @@ export const Container = styled.div`
     align-items: center;
     gap: 4rem;
 
-    img {
-      width: 41rem;
-      height: 46.25rem;
+    @media (max-width: 768px) {
+      flex-direction: column;
     }
 
-    div {
-      display: flex;
+    @media (max-width: 425px) {
       flex-direction: column;
-      span {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap: 1rem;
+    }
 
-        img {
-          width: 30px;
-          height: 30px;
-        }
+    img {
+      width: 41rem;
+      height: auto;
 
-        p {
-          color: ${({ theme }) => theme.textlight};
-          font-size: 0.8rem;
-          text-transform: uppercase;
-        }
+      @media (max-width: 1230px) {
+        width: 35rem;
       }
 
-      main {
-        display: flex;
-        flex-direction: column;
-        color: ${({ theme }) => theme.text};
-
-        h1 {
-          margin-top: 1rem;
-          font-size: 4.5rem;
-          font-weight: 600;
-        }
-
-        p {
-          margin-top: 1rem;
-          font-size: 1rem;
-          line-height: 1.5rem;
-        }
+      @media (max-width: 1020px) {
+        width: 30rem;
       }
 
-      section {
-        display: flex;
-        align-items: center;
-        margin-top: 1rem;
-        gap: 10rem;
+      @media (max-width: 930px) {
+        width: 20rem;
+      }
 
-        button:first-child {
-          background-color: #4e4cb7;
-          padding: 0.8rem;
-          font-size: 1rem;
-          font-weight: bold;
-          color: ${({ theme }) => theme.text};
-          border-radius: 30px;
-          border: none;
-        }
-        button:last-child {
-          background: none;
-          border: none;
-        }
+      @media (max-width: 425px) {
+        width: 18rem;
+      }
+
+      @media (max-width: 375px) {
+        width: 15rem;
       }
     }
   }

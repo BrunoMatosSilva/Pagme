@@ -62,7 +62,7 @@ export const Container = styled.div`
       }
 
       a {
-        margin-left: 0.7rem;
+        margin-left: 1rem;
       }
     }
   }

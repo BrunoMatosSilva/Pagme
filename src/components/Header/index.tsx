@@ -12,7 +12,7 @@ function Header() {
   return (
     <>
       <MobileMenu menuIsVisible={menuIsOpen} setMenuIsVisible={setMenuIsOpen} />
-      <Container>
+      <Container data-aos="fade-down">
         <div>
           <img src={logo} alt="Sacola dinheiro" />
           <p>Pagme</p>

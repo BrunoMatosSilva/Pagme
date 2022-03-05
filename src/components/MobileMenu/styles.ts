@@ -39,6 +39,21 @@ export const Container = styled.section`
     transition: 0.7s;
   }
 
+  span {
+    border: 1px solid white;
+    width: 80px;
+    border-radius: 30px;
+    transition: 0.2s;
+
+    &:hover {
+      border-color: ${({ theme }) => theme.textlight};
+    }
+
+    a {
+      margin-left: 1rem;
+    }
+  }
+
   ${({ isVisible }) =>
     isVisible &&
     css`
