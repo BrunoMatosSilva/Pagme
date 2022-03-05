@@ -58,7 +58,7 @@ export const Container = styled.div`
       transition: 0.2s;
 
       &:hover {
-        border-color: green;
+        border-color: ${({ theme }) => theme.textlight};
       }
 
       a {
@@ -83,7 +83,7 @@ export const NavLinkContainer = styled.li`
     transition: 0.2s;
 
     &:hover {
-      color: green;
+      color: ${({ theme }) => theme.textlight};
     }
   }
 `;

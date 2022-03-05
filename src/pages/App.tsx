@@ -1,4 +1,5 @@
 import Header from 'components/Header';
+import HeroBanner from 'components/HeroBanner';
 import React from 'react';
 import { ThemeProvider } from 'styled-components';
 import { HomeContainer } from 'styles/HomeContainer';
@@ -14,6 +15,7 @@ function App() {
         <HomeContainer>
           <main className="container">
             <Header />
+            <HeroBanner />
           </main>
         </HomeContainer>
       </ThemeProvider>
